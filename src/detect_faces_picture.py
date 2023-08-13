@@ -3,12 +3,6 @@ import cv2
 
 def main():
     detect_faces_picture("assets/children.png", 1)
-    detect_faces_picture("assets/People_1.JPEG", 2)
-    detect_faces_picture("assets/costco_trip.jpeg", 3)
-    detect_faces_picture("assets/FBLA_Nationals.jpg", 4)
-    detect_faces_picture("assets/Fifteenth_Bday.jpg", 5)
-    detect_faces_picture("assets/red_lion.jpg", 6)
-    detect_faces_picture("assets/snow_day.jpeg", 7)
 
 def detect_faces_picture(file, number):
     # implement object detection technique for face detection
