@@ -19,7 +19,7 @@ def detect_faces_picture(file, number):
     blackwhite_image = cv2.equalizeHist(grayscale_image)
 
     # detect faces
-    faces = cc.detectMultiScale(blackwhite_image, scaleFactor = 1.3, minNeighbors = 4, minSize = (30, 30), flags = cv2.CASCADE_SCALE_IMAGE)
+    faces = cc.detectMultiScale(blackwhite_image, scaleFactor = 1.5, minNeighbors = 4, minSize = (30, 30), flags = cv2.CASCADE_SCALE_IMAGE)
 
     # put a box around the faces
     for x, y, w, h in faces:
